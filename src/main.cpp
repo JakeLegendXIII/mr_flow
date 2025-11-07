@@ -37,6 +37,8 @@ int main ()
 		// draw some text using the default font
 		DrawText("Mr. Flow", 200,200,20,WHITE);
 
+		DrawText("This is a texture loaded from the resources folder ^", 200, 250, 20, WHITE);
+
 		// draw our texture to the screen
 		DrawTexture(wabbit, 400, 200, WHITE);
 		
